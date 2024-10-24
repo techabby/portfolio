@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Personal Portfolio</title>
+  <meta name="title" content="Drew Hays - Get your product identity from me.">
+  <meta name="description" content="This is a personal portfolio html template made by codewithsadee">
+
+  
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/font/font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="84" height="26" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="84" height="26" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+          </li>
+
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!-- <a href="#" class="btn btn:hover">
+        <span class="span">Get A Quote</span>
+
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a> -->
+
+      <!-- <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div> -->
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #Portfolio
+      -->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
+              <img src="./assets/images/hero-banner.jpg" width="500" height="680" alt="Drew Hays" class="img-cover">
+            </div>
+
+            <span class="span title">Abdullah Aziz</span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <h1 class="h1 title">Pythonist | Student</h1>
+
+            <div class="wrapper">
+              <a href="./assets/CV/My Resume.pdf" class="btn btn:hover">
+                <span class="span">Download CV</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+
+             
+            </div>
+
+          </div>
+
+          <img src="./assets/images/hero-shape-1.png" width="559" height="232" alt="shape" class="shape shape-1">
+
+          <img src="./assets/images/hero-shape-2.png" width="1358" height="497" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">Skills</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="awward">Certifications</button>
+              </li>
+
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="./assets/images/about-banner.jpg" width="570" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                    Professional Overview
+                  </h2>
+
+                  <p class="section-text">
+                    I am a passionate and driven student currently honing my skills in programming, with a focus on Python development. Over time, I have built a strong foundation in Python and gained extensive experience in creating intuitive and functional GUI applications using Tkinter. My journey into coding has been marked by numerous self-driven projects, allowing me to explore complex concepts and solve challenging problems efficiently.
+                  </p>
+                  <p class="section-text"></p>
+                    In addition to my proficiency in Python, I am also skilled in C++, which has further refined my logical thinking and problem-solving capabilities. I enjoy the process of building solutions from the ground up, whether it's designing user interfaces or writing clean, optimized code.
+                  </p>
+                  <p class="section-text"></p>
+                    I am always eager to learn new technologies and push myself to take on new challenges. While I continue to develop my expertise in programming, I aim to apply my skills to innovative projects that make a real impact.
+                  </p>
+                  
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+                    My Skillset
+                  </h3>
+
+                  <p class="section-text">
+                    Driven by a passion for innovation and continuous learning, I strive to apply my technical abilities to create impactful solutions.
+                  </p>
+
+                  <ul class="skill-list">
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">Python</span>
+
+                        <span class="value">95%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">GUI</span>
+
+                        <span class="value">85%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%"></div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="skill-wrapper">
+                        <span class="span">C++</span>
+
+                        <span class="value">65%</span>
+                      </div>
+
+                      <div class="progress-bar">
+                        <div class="progress-fill" style="width: 65%"></div>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
+                  <img src="./assets/images/skill-banner.jpg" width="570" height="420" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="awward">
+
+              <h3 class="h4 title section-title">
+                Committed to expanding my expertise and continuously improving myself, with certifications that strengthen my skills and enhance my proficiency in programming languages.
+              </h3>
+
+              <ul class="grid-list">
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-1.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="award-card">
+                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
+                      <img src="./assets/images/awward-2.jpg" width="534" height="383" loading="lazy" alt="certificate"
+                        class="img-cover">
+                    </figure>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+        </div>
+      </section>
+
+
+      <!-- 
+        - #PROJECTS
+      -->
+
+      <section class="section project" aria-label="my latest projects" id="project">
+
+        <ul class="slider-list">
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-1.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Creative & experienced digital design studio" class="img-cover">
+
+                <a href="https://github.com/techabby/GUI-Projects" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">GUI Projects</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/techabby/GUI-Projects" class="card-title">Creative & experienced GUI designs</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-2.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Front End Development & Maintenance" class="img-cover">
+
+                <a href="https://github.com/techabby/Python-Begginer-Projects" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Python Projects</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/techabby/Python-Begginer-Projects" class="card-title">Basic Python Projects</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>
+
+          <li class="slider-item">
+            <div class="project-card text-center">
+
+              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
+                <img src="./assets/images/project-3.jpg" width="1000" height="763" loading="lazy"
+                  alt="Project poster: Flutter Framework & Warframe Design" class="img-cover">
+
+                <a href="https://github.com/techabby/Problem-Solving-Using-Python" class="btn btn:hover">
+                  <span class="span">Project Details</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle">Problem Solving Using Python</p>
+
+                <h3 class="title h3">
+                  <a href="https://github.com/techabby/Problem-Solving-Using-Python" class="card-title">Simplifying, Solving, Combining</a>
+                </h3>
+              </div>
+
+            </div>
+          </li>        </ul>
+
+      </section>
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" aria-label="contact me" id="contact">
+        <div class="container">
+    
+            <h2 class="title h2 section-title">Get In Touch</h2>
+    
+            <div class="contact-grid">
+                <ul class="contact-list">
+    
+                    <li class="contact-item">
+    
+                        <div class="item-icon">
+                            <img src="./assets/images/call.png" width="50" height="50" loading="lazy"
+                                alt="contact icon">
+                        </div>
+    
+                        <div>
+                            <span class="title h6">+923145860665</span>
+
+                        </div>
+    
+                    </li>
+    
+                    <li class="contact-item">
+    
+                        <div class="item-icon">
+                            <img src="./assets/images/location.png" width="50" height="50" loading="lazy"
+                                alt="contact icon">
+                        </div>
+    
+                        <div>
+                            <address class="title h6">
+                                Street 4, Gulraiz 1,
+                                Chaklala Scheme 3, Rawalpindi
+                            </address>
+                        </div>
+    
+                    </li>
+    
+                    <li class="contact-item">
+    
+                        <div class="item-icon">
+                            <img src="./assets/images/mail.png" width="50" height="50" loading="lazy"
+                                alt="contact icon">
+                        </div>
+    
+                        <div>
+                            <span class="title h6">abbyheere@google.com</span>
+                        </div>
+    
+                    </li>
+    
+                    <li class="contact-item">
+    
+                        <div class="item-icon">
+                            <a href="https://www.linkedin.com/in/techabby" target="_blank">
+                                <img src="./assets/images/linkedin.png" width="50" height="50" loading="lazy"
+                                    alt="LinkedIn icon">
+                            </a>
+                        </div>
+    
+                        <div>
+                            <span class="title h6">LinkedIn</span>
+                        </div>
+    
+                    </li>
+    
+                    <li class="contact-item">
+    
+                        <div class="item-icon">
+                            <a href="https://github.com/techabby" target="_blank">
+                                <img src="./assets/images/github.png" width="50" height="50" loading="lazy"
+                                    alt="GitHub icon">
+                            </a>
+                        </div>
+    
+                        <div>
+                            <span class="title h6">GitHub</span>
+                        </div>
+    
+                    </li>
+    
+                </ul>
+            </div>
+    
+        </div>
+    </section>
+    
+    </article>
+    </main>
+    
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        © 2024 | All rights reserved.
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
